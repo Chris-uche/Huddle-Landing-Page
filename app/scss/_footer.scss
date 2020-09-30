@@ -1,0 +1,160 @@
+
+@media only screen and (min-width:750px){
+
+
+    @import 'variables';
+    
+    
+    
+    @font-face {
+        font-family: 'icomoon';
+        src:  url('../fonts/icomoon.eot?mztwpf');
+        src:  url('../fonts/icomoon.eot?mztwpf#iefix') format('embedded-opentype'),
+            url('../fonts/icomoon.ttf?mztwpf') format('truetype'),
+            url('../fonts/icomoon.woff?mztwpf') format('woff'),
+            url('../fonts/icomoon.svg?mztwpf#icomoon') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: block;
+    }
+    [class^="icon-"], [class*=" icon-"] {
+        /* use !important to prevent issues with browser extensions that change fonts */
+        font-family: 'icomoon' !important;
+        speak: never;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        }
+        .icon-github:before {
+        content: "\e900";
+        }
+        .icon-twitter:before {
+        content: "\e901";
+    }
+        
+    footer{
+        position: relative;
+        
+        background-color: $VERYDARKCYAN;
+        color: white;
+        margin-top: -6.5rem;
+        .logo{
+        width: 9.5rem;
+        filter: brightness(0) invert(1);
+    
+        }
+}
+
+
+    .footer-wrapper{
+        padding: 2.5625rem 4.6875rem;
+
+        
+        .footer-info{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .contact-details{
+                
+                width: 35%;
+                display: flex;
+                flex-direction: column;
+                height: 250px;
+                justify-content: space-evenly;
+                margin: 15px;
+                
+            }
+            .address,
+            .tel,
+            .email {
+            display: flex;
+            align-items: baseline;
+            }
+            .icon {
+                margin-right: 1em;
+                height: 18px;
+            }
+            .footer-nav--container{
+                display: flex;
+                
+                width: 15%;
+                justify-content: center;
+                padding: 2em 0 1.25em;
+                ul{
+                    list-style: none;
+                    
+                    font-size: 1.2rem;
+                    
+                    li{
+                        margin: 15px;
+                    }
+                }
+            }
+
+            .icons{
+                
+                width: 15%;
+                
+                font-size: 8rem;
+                display: flex;
+                justify-content: center;
+                a{
+                    border: 1px solid #fff;
+                    display: inherit;
+                    border-radius: 100%;
+                    color: #f2f2f2;
+                    height: 4rem;
+                    margin: 4rem;
+                    margin: 1rem;
+                    font-size: 2rem;
+                    padding: 1rem;
+                    text-decoration:none;
+                    align-items: center;
+                }
+
+
+            }
+            .blog-section{
+                
+                width: 15%;
+                justify-content: center;
+                padding: 2em 0 1.25em;
+        
+                ul{
+                    list-style: none;
+                    text-align: center;
+                    
+                    
+                    padding-bottom: 1em;
+                    font-size: 1.2rem;
+                    li{
+                        margin: 15px;
+                    }
+                }
+            }
+        }
+        .copyright{
+            display: flex;
+            
+            justify-content: flex-end;
+            margin:2rem 0;
+            
+        }
+    }
+
+
+    .footer-copyright{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+
+    }
+}
+
